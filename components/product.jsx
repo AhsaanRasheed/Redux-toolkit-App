@@ -16,9 +16,6 @@ function Product({item}){
 
   useEffect(()=>{
     let result = cartItems.filter((element)=>{
-      console.log('element name: ',element.name);
-      console.log('item name: ',item.name);
-      console.log('==============');
       return element.name === item.name
     })
     if(result.length) setItemIsAdded(true)

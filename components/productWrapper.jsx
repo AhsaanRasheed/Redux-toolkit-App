@@ -39,7 +39,7 @@ function ProductWrapper({navigation}){
 
   return (
     <View>
-        <Button title='Go to user list' onPress={()=>navigation.navigate('User  ')}/>
+        <Button title='Go to user list' onPress={()=>navigation.navigate('User')}/>
       <Header />
       <ScrollView>
         {
